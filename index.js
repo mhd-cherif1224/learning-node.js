@@ -57,5 +57,25 @@ const divide = (a,b) => {
 
 divide(10 , 0).then(r => console.log("teh result is : "+r)).catch(e => console.log("the error is "+e));
 
+const age = 90;
+module.exports = {divide, age,addNumbers};
 
-module.exports = divide;
+
+
+
+
+const person = {
+    name : "qedour",
+
+}
+
+
+module.exports.items = ["item0", "item1"];
+module.exports.singlePerson = person.name;
+
+const numbers = [1, 2];
+
+function addNumbers (){
+    console.log(`the resulet is ${numbers[0] + numbers[1]}`);
+}
+

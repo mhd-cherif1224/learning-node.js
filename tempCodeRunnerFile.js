@@ -1,4 +1,4 @@
 
-setInterval(()=>{console.log("nigga")
+setInterval(()=>{console.log("hello")
     
 }, 1000);
